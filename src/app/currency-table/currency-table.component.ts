@@ -10,7 +10,7 @@ import { CurrencyService } from 'src/core/_services/currency.service';
 })
 export class CurrencyTableComponent implements OnInit {
 
-  currencyData: Currency[] | undefined;
+  currencyData: any;
   data: any;
 
   constructor(
